@@ -27,13 +27,13 @@ Before using this application, ensure that you have the following:
 
 3. In the Firebase.cs file, update the Firebase configuration with your Firebase project's authentication secret and database URL:
 
-    ``csharp
+    ```csharp
    IFirebaseConfig config = new FirebaseConfig
    {
        AuthSecret = "YOUR_FIREBASE_AUTH_SECRET",
        BasePath = "YOUR_FIREBASE_PROJECT_URL",
    };
-    ``
+    ``````
 
 4. Build and run the application.
 
